@@ -1,7 +1,4 @@
 
-# 필수설치 모듈
-#pip install discord
-#pip install captcha
 
 import discord
 from captcha.image import ImageCaptcha
@@ -9,9 +6,9 @@ import random
 import time
 
 client = discord.Client()
-token = '★봇 토큰★'
-gaming = '★상태에 표시될  게 임 이 름★'
-channel = ☆인증채널 ID'
+token = 'bottoken'
+gaming = 'gamee'
+channel = 'channelss'
 
 @client.event
 async def on_ready():
