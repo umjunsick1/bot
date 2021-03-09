@@ -47,7 +47,7 @@ async def on_message(message):
             return
 
         if msg.content == a:
-            role = discord.utils.get(message.guild.roles, name="★역  할  이  름★")
+            role = discord.utils.get(message.guild.roles, name="")
             await message.channel.purge(limit=4)
             tjdrhdEmbed = discord.Embed(title='인증성공', color=0x04FF00)
             tjdrhdEmbed.add_field(name='닉네임', value=message.author, inline=False)
